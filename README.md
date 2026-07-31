@@ -81,6 +81,7 @@ npm run preview
 - `prototype-images/` はデザインの方向性を検討するための参照イメージであり、実装済みUIはその配色・レイアウトの傾向のみを抽出したオリジナル実装です（参照画像内の一文字問題の表示は旧案のため採用していません）。
 - 効果音ファイルは未収録です。`src/hooks/useSound.ts` はON/OFF設定の保持のみを行い、音源を追加する際にライセンスを確認のうえ実装してください。
 - 外部辞書・外部問題集のデータは使用していません。詳細は [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md) を参照してください。
+- `public/card.png` は X（Twitter）・Discord等でリンクをシェアした際にカード表示されるOGP画像です。差し替える場合は `index.html` の `og:image` / `twitter:image` のURLとあわせて更新してください。
 
 ## ライセンス / License
 
