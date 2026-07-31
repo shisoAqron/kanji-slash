@@ -303,6 +303,206 @@
       "exampleReading": "くさはらで あそぶ。",
       "kanjiGrades": { "草": 1 },
       "tags": ["訓読み", "まぜがき"]
+    },
+    {
+      "id": "g1-031",
+      "word": "貝がら",
+      "reading": "かいがら",
+      "distractors": ["かいから", "ばいがら"],
+      "example": "貝がらを ひろう。",
+      "exampleReading": "かいがらを ひろう。",
+      "kanjiGrades": { "貝": 1 },
+      "tags": ["訓読み", "まぜがき"]
+    },
+    {
+      "id": "g1-032",
+      "word": "九九",
+      "reading": "くく",
+      "distractors": ["きゅうきゅう", "くうく"],
+      "example": "九九を おぼえる。",
+      "exampleReading": "くくを おぼえる。",
+      "kanjiGrades": { "九": 1 },
+      "tags": ["音読み", "特別な読み"]
+    },
+    {
+      "id": "g1-033",
+      "word": "目玉",
+      "reading": "めだま",
+      "distractors": ["もくぎょく", "めたま"],
+      "example": "目玉やきを たべる。",
+      "exampleReading": "めだまやきを たべる。",
+      "kanjiGrades": { "目": 1, "玉": 1 },
+      "tags": ["訓読み", "連濁"]
+    },
+    {
+      "id": "g1-034",
+      "word": "竹うま",
+      "reading": "たけうま",
+      "distractors": ["たけば", "たきうま"],
+      "example": "竹うまで あそぶ。",
+      "exampleReading": "たけうまで あそぶ。",
+      "kanjiGrades": { "竹": 1 },
+      "tags": ["訓読み", "まぜがき"]
+    },
+    {
+      "id": "g1-035",
+      "word": "男子",
+      "reading": "だんし",
+      "distractors": ["おとこし", "だんこ"],
+      "example": "男子が はしる。",
+      "exampleReading": "だんしが はしる。",
+      "kanjiGrades": { "男": 1, "子": 1 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g1-036",
+      "word": "女子",
+      "reading": "じょし",
+      "distractors": ["おんなこ", "じょこ"],
+      "example": "女子が わらう。",
+      "exampleReading": "じょしが わらう。",
+      "kanjiGrades": { "女": 1, "子": 1 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g1-037",
+      "word": "赤十字",
+      "reading": "せきじゅうじ",
+      "distractors": ["あかじゅうじ", "せきじゅうし"],
+      "example": "赤十字を まなぶ。",
+      "exampleReading": "せきじゅうじを まなぶ。",
+      "kanjiGrades": { "赤": 1, "十": 1, "字": 1 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g1-038",
+      "word": "千人",
+      "reading": "せんにん",
+      "distractors": ["ちにん", "せんじん"],
+      "example": "千人が あつまる。",
+      "exampleReading": "せんにんが あつまる。",
+      "kanjiGrades": { "千": 1, "人": 1 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g1-039",
+      "word": "大小",
+      "reading": "だいしょう",
+      "distractors": ["おおしょう", "たいしょう"],
+      "example": "大小を くらべる。",
+      "exampleReading": "だいしょうを くらべる。",
+      "kanjiGrades": { "大": 1, "小": 1 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g1-040",
+      "word": "大王",
+      "reading": "だいおう",
+      "distractors": ["おおおう", "たいおう"],
+      "example": "大王に なる。",
+      "exampleReading": "だいおうに なる。",
+      "kanjiGrades": { "大": 1, "王": 1 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g1-041",
+      "word": "大人",
+      "reading": "おとな",
+      "distractors": ["だいじん", "おおひと"],
+      "example": "大人に なる。",
+      "exampleReading": "おとなに なる。",
+      "kanjiGrades": { "大": 1, "人": 1 },
+      "tags": ["特別な読み"]
+    },
+    {
+      "id": "g1-042",
+      "word": "竹林",
+      "reading": "ちくりん",
+      "distractors": ["たけばやし", "ちくりょく"],
+      "example": "竹林を あるく。",
+      "exampleReading": "ちくりんを あるく。",
+      "kanjiGrades": { "竹": 1, "林": 1 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g1-043",
+      "word": "町中",
+      "reading": "まちなか",
+      "distractors": ["ちょうちゅう", "まちじゅう"],
+      "example": "町中を さんぽする。",
+      "exampleReading": "まちなかを さんぽする。",
+      "kanjiGrades": { "町": 1, "中": 1 },
+      "tags": ["訓読み"]
+    },
+    {
+      "id": "g1-044",
+      "word": "田んぼ",
+      "reading": "たんぼ",
+      "distractors": ["でんぼう", "たぼ"],
+      "example": "田んぼで あそぶ。",
+      "exampleReading": "たんぼで あそぶ。",
+      "kanjiGrades": { "田": 1 },
+      "tags": ["訓読み"]
+    },
+    {
+      "id": "g1-045",
+      "word": "田はた",
+      "reading": "たはた",
+      "distractors": ["でんぱた", "たはたけ"],
+      "example": "田はたを たがやす。",
+      "exampleReading": "たはたを たがやす。",
+      "kanjiGrades": { "田": 1 },
+      "tags": ["訓読み", "まぜがき"]
+    },
+    {
+      "id": "g1-046",
+      "word": "二日",
+      "reading": "ふつか",
+      "distractors": ["ににち", "ふつが"],
+      "example": "二日が すぎた。",
+      "exampleReading": "ふつかが すぎた。",
+      "kanjiGrades": { "二": 1, "日": 1 },
+      "tags": ["特別な読み"]
+    },
+    {
+      "id": "g1-047",
+      "word": "三日",
+      "reading": "みっか",
+      "distractors": ["さんにち", "みつか"],
+      "example": "三日で なおる。",
+      "exampleReading": "みっかで なおる。",
+      "kanjiGrades": { "三": 1, "日": 1 },
+      "tags": ["特別な読み", "促音"]
+    },
+    {
+      "id": "g1-048",
+      "word": "四日",
+      "reading": "よっか",
+      "distractors": ["よにち", "よつか"],
+      "example": "四日に でかける。",
+      "exampleReading": "よっかに でかける。",
+      "kanjiGrades": { "四": 1, "日": 1 },
+      "tags": ["特別な読み", "促音"]
+    },
+    {
+      "id": "g1-049",
+      "word": "七日",
+      "reading": "なのか",
+      "distractors": ["しちにち", "なのが"],
+      "example": "七日で とどく。",
+      "exampleReading": "なのかで とどく。",
+      "kanjiGrades": { "七": 1, "日": 1 },
+      "tags": ["特別な読み"]
+    },
+    {
+      "id": "g1-050",
+      "word": "十日",
+      "reading": "とおか",
+      "distractors": ["じゅうにち", "とうか"],
+      "example": "十日が たった。",
+      "exampleReading": "とおかが たった。",
+      "kanjiGrades": { "十": 1, "日": 1 },
+      "tags": ["特別な読み"]
     }
   ]
 }

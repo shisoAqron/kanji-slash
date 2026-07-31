@@ -363,6 +363,246 @@
       "exampleReading": "てがみを かく。",
       "kanjiGrades": { "手": 1, "紙": 2 },
       "tags": ["訓読み"]
+    },
+    {
+      "id": "g2-037",
+      "word": "汽船",
+      "reading": "きせん",
+      "distractors": ["きぶね", "きぜん"],
+      "example": "汽船に のる。",
+      "exampleReading": "きせんに のる。",
+      "kanjiGrades": { "汽": 2, "船": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-038",
+      "word": "海外",
+      "reading": "かいがい",
+      "distractors": ["うみそと", "かいそと"],
+      "example": "海外へ いく。",
+      "exampleReading": "かいがいへ いく。",
+      "kanjiGrades": { "海": 2, "外": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-039",
+      "word": "会話",
+      "reading": "かいわ",
+      "distractors": ["あいわ", "かいばなし"],
+      "example": "会話を たのしむ。",
+      "exampleReading": "かいわを たのしむ。",
+      "kanjiGrades": { "会": 2, "話": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-040",
+      "word": "絵本",
+      "reading": "えほん",
+      "distractors": ["かいほん", "えぼん"],
+      "example": "絵本を よむ。",
+      "exampleReading": "えほんを よむ。",
+      "kanjiGrades": { "絵": 2, "本": 1 },
+      "tags": ["訓読み"]
+    },
+    {
+      "id": "g2-041",
+      "word": "外国",
+      "reading": "がいこく",
+      "distractors": ["そとこく", "がいごく"],
+      "example": "外国を りょこうする。",
+      "exampleReading": "がいこくを りょこうする。",
+      "kanjiGrades": { "外": 2, "国": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-042",
+      "word": "強力",
+      "reading": "きょうりょく",
+      "distractors": ["つよりょく", "きょうりき"],
+      "example": "強力な ちからだ。",
+      "exampleReading": "きょうりょくな ちからだ。",
+      "kanjiGrades": { "強": 2, "力": 1 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-043",
+      "word": "人形",
+      "reading": "にんぎょう",
+      "distractors": ["ひとかたち", "にんけい"],
+      "example": "人形で あそぶ。",
+      "exampleReading": "にんぎょうで あそぶ。",
+      "kanjiGrades": { "人": 1, "形": 2 },
+      "tags": ["音読み", "特別な読み"]
+    },
+    {
+      "id": "g2-044",
+      "word": "計算",
+      "reading": "けいさん",
+      "distractors": ["はかりさん", "けいざん"],
+      "example": "計算を する。",
+      "exampleReading": "けいさんを する。",
+      "kanjiGrades": { "計": 2, "算": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-045",
+      "word": "合図",
+      "reading": "あいず",
+      "distractors": ["ごうず", "あいと"],
+      "example": "合図を おくる。",
+      "exampleReading": "あいずを おくる。",
+      "kanjiGrades": { "合": 2, "図": 2 },
+      "tags": ["訓読み", "連濁"]
+    },
+    {
+      "id": "g2-046",
+      "word": "国語",
+      "reading": "こくご",
+      "distractors": ["くにご", "こくぎょ"],
+      "example": "国語を べんきょうする。",
+      "exampleReading": "こくごを べんきょうする。",
+      "kanjiGrades": { "国": 2, "語": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-047",
+      "word": "今週",
+      "reading": "こんしゅう",
+      "distractors": ["いまじゅう", "こんじゅう"],
+      "example": "今週は いそがしい。",
+      "exampleReading": "こんしゅうは いそがしい。",
+      "kanjiGrades": { "今": 2, "週": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-048",
+      "word": "今夜",
+      "reading": "こんや",
+      "distractors": ["いまよる", "こんよる"],
+      "example": "今夜は はやく ねる。",
+      "exampleReading": "こんやは はやく ねる。",
+      "kanjiGrades": { "今": 2, "夜": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-049",
+      "word": "作文",
+      "reading": "さくぶん",
+      "distractors": ["つくりぶん", "さくもん"],
+      "example": "作文を かく。",
+      "exampleReading": "さくぶんを かく。",
+      "kanjiGrades": { "作": 2, "文": 1 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-050",
+      "word": "算数",
+      "reading": "さんすう",
+      "distractors": ["けいすう", "さんかず"],
+      "example": "算数が すきだ。",
+      "exampleReading": "さんすうが すきだ。",
+      "kanjiGrades": { "算": 2, "数": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-051",
+      "word": "時間",
+      "reading": "じかん",
+      "distractors": ["じま", "ときあいだ"],
+      "example": "時間を まもる。",
+      "exampleReading": "じかんを まもる。",
+      "kanjiGrades": { "時": 2, "間": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-052",
+      "word": "週間",
+      "reading": "しゅうかん",
+      "distractors": ["しゅうま", "しゅっかん"],
+      "example": "週間ごとに かわる。",
+      "exampleReading": "しゅうかんごとに かわる。",
+      "kanjiGrades": { "週": 2, "間": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-053",
+      "word": "社会",
+      "reading": "しゃかい",
+      "distractors": ["やしろかい", "しゃがい"],
+      "example": "社会を まなぶ。",
+      "exampleReading": "しゃかいを まなぶ。",
+      "kanjiGrades": { "社": 2, "会": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-054",
+      "word": "新聞",
+      "reading": "しんぶん",
+      "distractors": ["あたらしきき", "しんもん"],
+      "example": "新聞を よむ。",
+      "exampleReading": "しんぶんを よむ。",
+      "kanjiGrades": { "新": 2, "聞": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-055",
+      "word": "星空",
+      "reading": "ほしぞら",
+      "distractors": ["せいくう", "ほしそら"],
+      "example": "星空を 見る。",
+      "exampleReading": "ほしぞらを みる。",
+      "kanjiGrades": { "星": 2, "空": 1 },
+      "tags": ["訓読み", "連濁"]
+    },
+    {
+      "id": "g2-056",
+      "word": "雪山",
+      "reading": "ゆきやま",
+      "distractors": ["せつざん", "ゆきさん"],
+      "example": "雪山に のぼる。",
+      "exampleReading": "ゆきやまに のぼる。",
+      "kanjiGrades": { "雪": 2, "山": 1 },
+      "tags": ["訓読み"]
+    },
+    {
+      "id": "g2-057",
+      "word": "太こ",
+      "reading": "たいこ",
+      "distractors": ["ふとこ", "たいご"],
+      "example": "太こを たたく。",
+      "exampleReading": "たいこを たたく。",
+      "kanjiGrades": { "太": 2 },
+      "tags": ["訓読み", "まぜがき"]
+    },
+    {
+      "id": "g2-058",
+      "word": "地図",
+      "reading": "ちず",
+      "distractors": ["じと", "ちと"],
+      "example": "地図を 見る。",
+      "exampleReading": "ちずを みる。",
+      "kanjiGrades": { "地": 2, "図": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-059",
+      "word": "茶色",
+      "reading": "ちゃいろ",
+      "distractors": ["さいろ", "ちゃしょく"],
+      "example": "茶色の かばんだ。",
+      "exampleReading": "ちゃいろの かばんだ。",
+      "kanjiGrades": { "茶": 2, "色": 2 },
+      "tags": ["訓読み"]
+    },
+    {
+      "id": "g2-060",
+      "word": "朝日",
+      "reading": "あさひ",
+      "distractors": ["ちょうじつ", "あさび"],
+      "example": "朝日が のぼる。",
+      "exampleReading": "あさひが のぼる。",
+      "kanjiGrades": { "朝": 2, "日": 1 },
+      "tags": ["訓読み"]
     }
   ]
 }
