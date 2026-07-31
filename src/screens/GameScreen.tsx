@@ -116,12 +116,12 @@ export function GameScreen({ session, onAnswer, onAdvance }: GameScreenProps) {
         <QuestionBoard word={question.word} example={question.example} />
         {session.answerState === 'correct' && (
           <FeedbackOverlay>
-            <CorrectEffect word={question.word} reading={question.reading} combo={session.combo} />
+            <CorrectEffect reading={question.reading} combo={session.combo} />
           </FeedbackOverlay>
         )}
         {session.answerState === 'incorrect' && (
           <FeedbackOverlay>
-            <IncorrectEffect word={question.word} reading={question.reading} />
+            <IncorrectEffect reading={question.reading} />
           </FeedbackOverlay>
         )}
       </div>
