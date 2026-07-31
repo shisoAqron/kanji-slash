@@ -8,7 +8,7 @@ interface YokaiChoiceProps {
   side: 'left' | 'right';
   visualState: YokaiVisualState;
   wasWrongChoice: boolean;
-  tauntText?: string;
+  speechText?: string;
   onSelect: () => void;
   disabled: boolean;
 }
@@ -32,12 +32,13 @@ export function YokaiChoice({
   side,
   visualState,
   wasWrongChoice,
-  tauntText,
+  speechText,
   onSelect,
   disabled,
 }: YokaiChoiceProps) {
   const figureClass = [styles.figure, FIGURE_CLASS_BY_STATE[visualState]].filter(Boolean).join(' ');
   const signClass = [styles.sign, wasWrongChoice ? styles.wrong : ''].filter(Boolean).join(' ');
+  const showSpeechBubble = (visualState === 'taunting' || visualState === 'vanishing') && speechText;
 
   return (
     <button
@@ -49,17 +50,12 @@ export function YokaiChoice({
       aria-label={`よみかた ${reading} の妖怪をきる`}
     >
       <div className={styles.figureBox}>
-        {visualState === 'taunting' && tauntText ? (
+        {showSpeechBubble ? (
           <div className={styles.speechBubble} role="status">
-            {tauntText}
+            {speechText}
           </div>
         ) : null}
         {visualState === 'vanishing' ? <span className={styles.smoke} aria-hidden="true" /> : null}
-        {visualState === 'vanishing' ? (
-          <span className={styles.stamp} aria-hidden="true">
-            退治
-          </span>
-        ) : null}
         <YokaiFigure face={FACE_BY_STATE[visualState]} className={figureClass} />
       </div>
       <span className={styles.signSlot}>

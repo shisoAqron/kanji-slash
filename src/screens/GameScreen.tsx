@@ -19,6 +19,7 @@ interface GameScreenProps {
 }
 
 const TAUNTS = ['あははっ！ ちがうぞ〜！', 'こっちじゃないぞ！', 'ざんねーん！'];
+const DEFEAT_LINES = ['やられたぁ', 'ぐへぇ', 'むねん...'];
 const CORRECT_ADVANCE_DELAY_MS = 1200;
 const INCORRECT_ADVANCE_DELAY_MS = 1300;
 const REDUCED_MOTION_DELAY_MS = 500;
@@ -27,7 +28,9 @@ export function GameScreen({ session, onAnswer, onAdvance }: GameScreenProps) {
   const [selectedSide, setSelectedSide] = useState<Side | null>(null);
   const [slashKey, setSlashKey] = useState(0);
   const [tauntText, setTauntText] = useState(TAUNTS[0]);
+  const [defeatText, setDefeatText] = useState(DEFEAT_LINES[0]);
   const tauntIndexRef = useRef(0);
+  const defeatIndexRef = useRef(0);
   const reducedMotion = useReducedMotion();
 
   const prepared = currentQuestion(session);
@@ -42,6 +45,8 @@ export function GameScreen({ session, onAnswer, onAdvance }: GameScreenProps) {
       setSlashKey((key) => key + 1);
       tauntIndexRef.current = (tauntIndexRef.current + 1) % TAUNTS.length;
       setTauntText(TAUNTS[tauntIndexRef.current]);
+      defeatIndexRef.current = (defeatIndexRef.current + 1) % DEFEAT_LINES.length;
+      setDefeatText(DEFEAT_LINES[defeatIndexRef.current]);
       onAnswer(side);
     },
     [session.answerState, onAnswer],
@@ -84,6 +89,13 @@ export function GameScreen({ session, onAnswer, onAdvance }: GameScreenProps) {
     return 'idle';
   }
 
+  function speechTextFor(side: Side): string | undefined {
+    if (side !== selectedSide) return undefined;
+    if (session.answerState === 'correct') return defeatText;
+    if (session.answerState === 'incorrect') return tauntText;
+    return undefined;
+  }
+
   const answering = session.answerState !== 'idle';
   const slashVariant =
     session.answerState === 'correct' ? 'hit' : session.answerState === 'incorrect' ? 'miss' : null;
@@ -121,7 +133,7 @@ export function GameScreen({ session, onAnswer, onAdvance }: GameScreenProps) {
           side="left"
           visualState={visualStateFor('left')}
           wasWrongChoice={session.answerState === 'incorrect' && selectedSide === 'left'}
-          tauntText={tauntText}
+          speechText={speechTextFor('left')}
           onSelect={() => handleSelect('left')}
           disabled={answering}
         />
@@ -130,7 +142,7 @@ export function GameScreen({ session, onAnswer, onAdvance }: GameScreenProps) {
           side="right"
           visualState={visualStateFor('right')}
           wasWrongChoice={session.answerState === 'incorrect' && selectedSide === 'right'}
-          tauntText={tauntText}
+          speechText={speechTextFor('right')}
           onSelect={() => handleSelect('right')}
           disabled={answering}
         />

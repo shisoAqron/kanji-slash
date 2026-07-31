@@ -51,22 +51,6 @@
   pointer-events: none;
 }
 
-.stamp {
-  position: absolute;
-  top: -6px;
-  right: -14px;
-  background: var(--color-paper);
-  border: 2px solid var(--color-torii-red);
-  color: var(--color-torii-red);
-  font-size: 0.7rem;
-  font-weight: 800;
-  padding: 2px 6px;
-  border-radius: 6px;
-  transform: rotate(12deg);
-  animation: global(pop-in) var(--duration-mid) ease-out both;
-  pointer-events: none;
-}
-
 .signSlot {
   position: relative;
   display: inline-flex;
