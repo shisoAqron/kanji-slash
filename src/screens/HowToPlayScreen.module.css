@@ -1,0 +1,15 @@
+.list {
+  margin: 0 0 16px;
+  padding-left: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.closeAction {
+  display: flex;
+  justify-content: center;
+}

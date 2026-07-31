@@ -1,0 +1,12 @@
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  border-radius: var(--radius-lg);
+  background: rgba(12, 6, 28, 0.86);
+  animation: global(fade-in) var(--duration-fast) ease-out both;
+}

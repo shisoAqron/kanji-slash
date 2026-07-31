@@ -1,0 +1,21 @@
+.toggle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  min-width: var(--min-tap-size);
+  min-height: var(--min-tap-size);
+  border-radius: 50%;
+  border: 2px solid var(--color-wood-light);
+  background: rgba(20, 10, 40, 0.55);
+  color: var(--color-paper);
+  font-size: 0.65rem;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.icon {
+  font-size: 1.2rem;
+  line-height: 1;
+}

@@ -1,0 +1,81 @@
+.stage {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: visible;
+  z-index: 8;
+}
+
+.trail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 130%;
+  height: 8px;
+  margin-top: -4px;
+  margin-left: -65%;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    rgba(223, 244, 255, 0) 0%,
+    var(--color-slash-glow) 20%,
+    var(--color-slash) 50%,
+    var(--color-slash-glow) 80%,
+    rgba(223, 244, 255, 0) 100%
+  );
+  box-shadow: 0 0 16px 3px var(--color-slash-glow);
+  opacity: 0;
+}
+
+.trail.left {
+  animation: global(slash-sweep-left) var(--duration-slash) ease-out forwards;
+}
+
+.trail.right {
+  animation: global(slash-sweep-right) var(--duration-slash) ease-out forwards;
+}
+
+.swordWrap {
+  position: absolute;
+  top: 8%;
+  width: 58px;
+  height: 168px;
+  margin-left: -29px;
+  transform-origin: 50% 86%;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+  animation: global(sword-chop) var(--duration-slash) cubic-bezier(0.32, 0.1, 0.2, 1) both;
+}
+
+.swordWrap.left {
+  left: 27%;
+}
+
+.swordWrap.right {
+  left: 73%;
+}
+
+.swordIcon {
+  width: 100%;
+  height: 100%;
+}
+
+.spark {
+  position: absolute;
+  top: 38%;
+  width: 90px;
+  height: 90px;
+  margin-left: -45px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fffbe8 0%, var(--color-gold) 35%, rgba(255, 207, 77, 0) 72%);
+  mix-blend-mode: screen;
+  animation: global(impact-flash) 380ms ease-out both;
+  animation-delay: calc(var(--duration-slash) * 0.45);
+}
+
+.spark.left {
+  left: 27%;
+}
+
+.spark.right {
+  left: 73%;
+}

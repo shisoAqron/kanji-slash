@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "grade": 2,
+  "title": "小学2年生",
+  "sourcePolicy": "original",
+  "questions": [
+    {
+      "id": "g2-001",
+      "word": "音楽",
+      "reading": "おんがく",
+      "distractors": ["おとがく", "おんらく"],
+      "example": "音楽を 聞く。",
+      "exampleReading": "おんがくを きく。",
+      "kanjiGrades": { "音": 1, "楽": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-002",
+      "word": "汽車",
+      "reading": "きしゃ",
+      "distractors": ["きぐるま", "きっしゃ"],
+      "example": "汽車に のる。",
+      "exampleReading": "きしゃに のる。",
+      "kanjiGrades": { "汽": 2, "車": 1 },
+      "tags": ["訓読み", "促音"]
+    },
+    {
+      "id": "g2-003",
+      "word": "電池",
+      "reading": "でんち",
+      "distractors": ["でんいけ", "てんち"],
+      "example": "電池を いれる。",
+      "exampleReading": "でんちを いれる。",
+      "kanjiGrades": { "電": 2, "池": 2 },
+      "tags": ["音読み", "濁点"]
+    },
+    {
+      "id": "g2-004",
+      "word": "通行",
+      "reading": "つうこう",
+      "distractors": ["とおりゆき", "つうぎょう"],
+      "example": "通行を まもる。",
+      "exampleReading": "つうこうを まもる。",
+      "kanjiGrades": { "通": 2, "行": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-005",
+      "word": "朝食",
+      "reading": "ちょうしょく",
+      "distractors": ["あさじき", "ちょうじき"],
+      "example": "朝食を 食べる。",
+      "exampleReading": "ちょうしょくを たべる。",
+      "kanjiGrades": { "朝": 2, "食": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-006",
+      "word": "数字",
+      "reading": "すうじ",
+      "distractors": ["かずじ", "すうし"],
+      "example": "数字を 数える。",
+      "exampleReading": "すうじを かぞえる。",
+      "kanjiGrades": { "数": 2, "字": 1 },
+      "tags": ["音読み", "濁点"]
+    },
+    {
+      "id": "g2-007",
+      "word": "弱点",
+      "reading": "じゃくてん",
+      "distractors": ["よわてん", "じゃくでん"],
+      "example": "弱点を 直す。",
+      "exampleReading": "じゃくてんを なおす。",
+      "kanjiGrades": { "弱": 2, "点": 2 },
+      "tags": ["音読み", "濁点"]
+    },
+    {
+      "id": "g2-008",
+      "word": "遠足",
+      "reading": "えんそく",
+      "distractors": ["とおあし", "えんぞく"],
+      "example": "遠足に いく。",
+      "exampleReading": "えんそくに いく。",
+      "kanjiGrades": { "遠": 2, "足": 1 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-009",
+      "word": "通学",
+      "reading": "つうがく",
+      "distractors": ["かよいがく", "つうかく"],
+      "example": "通学で 歩く。",
+      "exampleReading": "つうがくで あるく。",
+      "kanjiGrades": { "通": 2, "学": 1 },
+      "tags": ["音読み", "濁点"]
+    },
+    {
+      "id": "g2-010",
+      "word": "直線",
+      "reading": "ちょくせん",
+      "distractors": ["すぐせん", "じきせん"],
+      "example": "直線を 引く。",
+      "exampleReading": "ちょくせんを ひく。",
+      "kanjiGrades": { "直": 2, "線": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-011",
+      "word": "姉妹",
+      "reading": "しまい",
+      "distractors": ["あねいもうと", "しめい"],
+      "example": "姉妹で でかける。",
+      "exampleReading": "しまいで でかける。",
+      "kanjiGrades": { "姉": 2, "妹": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-012",
+      "word": "麦茶",
+      "reading": "むぎちゃ",
+      "distractors": ["ばくちゃ", "むぎさ"],
+      "example": "麦茶を のむ。",
+      "exampleReading": "むぎちゃを のむ。",
+      "kanjiGrades": { "麦": 2, "茶": 2 },
+      "tags": ["訓読み"]
+    },
+    {
+      "id": "g2-013",
+      "word": "夏休み",
+      "reading": "なつやすみ",
+      "distractors": ["なつきゅう", "かやすみ"],
+      "example": "夏休みが たのしみだ。",
+      "exampleReading": "なつやすみが たのしみだ。",
+      "kanjiGrades": { "夏": 2, "休": 1 },
+      "tags": ["訓読み"]
+    },
+    {
+      "id": "g2-014",
+      "word": "図工",
+      "reading": "ずこう",
+      "distractors": ["とこう", "ずごう"],
+      "example": "図工で 絵を かく。",
+      "exampleReading": "ずこうで えを かく。",
+      "kanjiGrades": { "図": 2, "工": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-015",
+      "word": "教室",
+      "reading": "きょうしつ",
+      "distractors": ["おそわしつ", "きょうじつ"],
+      "example": "教室で べんきょうする。",
+      "exampleReading": "きょうしつで べんきょうする。",
+      "kanjiGrades": { "教": 2, "室": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-016",
+      "word": "太よう",
+      "reading": "たいよう",
+      "distractors": ["ふとよう", "たいよ"],
+      "example": "太ようが まぶしい。",
+      "exampleReading": "たいようが まぶしい。",
+      "kanjiGrades": { "太": 2 },
+      "tags": ["音読み", "まぜがき"]
+    },
+    {
+      "id": "g2-017",
+      "word": "黒ばん",
+      "reading": "こくばん",
+      "distractors": ["くろばん", "こくはん"],
+      "example": "黒ばんに 字を 書く。",
+      "exampleReading": "こくばんに じを かく。",
+      "kanjiGrades": { "黒": 2 },
+      "tags": ["音読み", "まぜがき"]
+    },
+    {
+      "id": "g2-018",
+      "word": "弱虫",
+      "reading": "よわむし",
+      "distractors": ["じゃくちゅう", "よわちゅう"],
+      "example": "弱虫と いわれた。",
+      "exampleReading": "よわむしと いわれた。",
+      "kanjiGrades": { "弱": 2, "虫": 1 },
+      "tags": ["訓読み"]
+    },
+    {
+      "id": "g2-019",
+      "word": "強気",
+      "reading": "つよき",
+      "distractors": ["きょうき", "つよげ"],
+      "example": "強気で はなす。",
+      "exampleReading": "つよきで はなす。",
+      "kanjiGrades": { "強": 2, "気": 1 },
+      "tags": ["訓読み"]
+    },
+    {
+      "id": "g2-020",
+      "word": "近道",
+      "reading": "ちかみち",
+      "distractors": ["きんどう", "ちかどう"],
+      "example": "近道を つかう。",
+      "exampleReading": "ちかみちを つかう。",
+      "kanjiGrades": { "近": 2, "道": 2 },
+      "tags": ["訓読み"]
+    },
+    {
+      "id": "g2-021",
+      "word": "遠回り",
+      "reading": "とおまわり",
+      "distractors": ["えんかい", "とおかい"],
+      "example": "遠回りして かえる。",
+      "exampleReading": "とおまわりして かえる。",
+      "kanjiGrades": { "遠": 2, "回": 2 },
+      "tags": ["訓読み"]
+    },
+    {
+      "id": "g2-022",
+      "word": "高台",
+      "reading": "たかだい",
+      "distractors": ["こうだい", "たかたい"],
+      "example": "高台から 見る。",
+      "exampleReading": "たかだいから みる。",
+      "kanjiGrades": { "高": 2, "台": 2 },
+      "tags": ["訓読み"]
+    },
+    {
+      "id": "g2-023",
+      "word": "大声",
+      "reading": "おおごえ",
+      "distractors": ["だいせい", "おおこえ"],
+      "example": "大声で よぶ。",
+      "exampleReading": "おおごえで よぶ。",
+      "kanjiGrades": { "大": 1, "声": 2 },
+      "tags": ["訓読み", "連濁"]
+    },
+    {
+      "id": "g2-024",
+      "word": "白米",
+      "reading": "はくまい",
+      "distractors": ["しろまい", "はくべい"],
+      "example": "白米を 食べる。",
+      "exampleReading": "はくまいを たべる。",
+      "kanjiGrades": { "白": 1, "米": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-025",
+      "word": "図画",
+      "reading": "ずが",
+      "distractors": ["とが", "ずえ"],
+      "example": "図画を てんじする。",
+      "exampleReading": "ずがを てんじする。",
+      "kanjiGrades": { "図": 2, "画": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-026",
+      "word": "番組",
+      "reading": "ばんぐみ",
+      "distractors": ["ばんそ", "はんぐみ"],
+      "example": "番組を 見る。",
+      "exampleReading": "ばんぐみを みる。",
+      "kanjiGrades": { "番": 2, "組": 2 },
+      "tags": ["訓読み", "連濁"]
+    },
+    {
+      "id": "g2-027",
+      "word": "交番",
+      "reading": "こうばん",
+      "distractors": ["まじりばん", "こうはん"],
+      "example": "交番で 聞く。",
+      "exampleReading": "こうばんで きく。",
+      "kanjiGrades": { "交": 2, "番": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-028",
+      "word": "心ぱい",
+      "reading": "しんぱい",
+      "distractors": ["こころぱい", "しんばい"],
+      "example": "心ぱいしないで。",
+      "exampleReading": "しんぱいしないで。",
+      "kanjiGrades": { "心": 2 },
+      "tags": ["音読み", "まぜがき"]
+    },
+    {
+      "id": "g2-029",
+      "word": "元気",
+      "reading": "げんき",
+      "distractors": ["もとき", "げんけ"],
+      "example": "元気に あそぶ。",
+      "exampleReading": "げんきに あそぶ。",
+      "kanjiGrades": { "元": 2, "気": 1 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-030",
+      "word": "何色",
+      "reading": "なにいろ",
+      "distractors": ["かしょく", "なにしょく"],
+      "example": "何色に するか きめる。",
+      "exampleReading": "なにいろに するか きめる。",
+      "kanjiGrades": { "何": 2, "色": 2 },
+      "tags": ["訓読み"]
+    },
+    {
+      "id": "g2-031",
+      "word": "昼食",
+      "reading": "ちゅうしょく",
+      "distractors": ["ひるじき", "ちゅうじき"],
+      "example": "昼食を 食べる。",
+      "exampleReading": "ちゅうしょくを たべる。",
+      "kanjiGrades": { "昼": 2, "食": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-032",
+      "word": "半分",
+      "reading": "はんぶん",
+      "distractors": ["なかぶん", "はんぷん"],
+      "example": "半分に わける。",
+      "exampleReading": "はんぶんに わける。",
+      "kanjiGrades": { "半": 2, "分": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-033",
+      "word": "東西",
+      "reading": "とうざい",
+      "distractors": ["ひがしにし", "とうさい"],
+      "example": "東西に ひろがる。",
+      "exampleReading": "とうざいに ひろがる。",
+      "kanjiGrades": { "東": 2, "西": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-034",
+      "word": "鳥肉",
+      "reading": "とりにく",
+      "distractors": ["ちょうにく", "とりじし"],
+      "example": "鳥肉を やく。",
+      "exampleReading": "とりにくを やく。",
+      "kanjiGrades": { "鳥": 2, "肉": 2 },
+      "tags": ["訓読み"]
+    },
+    {
+      "id": "g2-035",
+      "word": "台風",
+      "reading": "たいふう",
+      "distractors": ["だいふう", "たいふ"],
+      "example": "台風が ちかづく。",
+      "exampleReading": "たいふうが ちかづく。",
+      "kanjiGrades": { "台": 2, "風": 2 },
+      "tags": ["音読み"]
+    },
+    {
+      "id": "g2-036",
+      "word": "手紙",
+      "reading": "てがみ",
+      "distractors": ["しゅし", "てし"],
+      "example": "手紙を 書く。",
+      "exampleReading": "てがみを かく。",
+      "kanjiGrades": { "手": 1, "紙": 2 },
+      "tags": ["訓読み"]
+    }
+  ]
+}

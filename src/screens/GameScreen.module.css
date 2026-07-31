@@ -1,0 +1,87 @@
+.screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 16px 20px;
+  gap: 10px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.miniLogo {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 900;
+  color: var(--color-gold);
+}
+
+.statusRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.progress {
+  background: rgba(0, 0, 0, 0.4);
+  color: var(--color-paper);
+  border: 2px solid var(--color-wood-light);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-weight: 800;
+  font-size: 0.85rem;
+}
+
+.combo {
+  background: rgba(0, 0, 0, 0.4);
+  color: var(--color-gold);
+  border: 2px solid var(--color-gold-dark);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-weight: 800;
+  font-size: 0.85rem;
+}
+
+.boardStage {
+  position: relative;
+  width: 100%;
+  max-width: 340px;
+  margin: 0 auto;
+}
+
+.choiceStage {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20px;
+  padding: 12px 0 4px;
+}
+
+.swordRest {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  opacity: 0.92;
+}
+
+.restIcon {
+  width: 34px;
+  height: 75px;
+  transform-origin: 50% 82%;
+  animation: global(sword-idle-sway) 3.2s ease-in-out infinite;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}

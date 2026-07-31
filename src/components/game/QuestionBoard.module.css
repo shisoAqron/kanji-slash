@@ -1,0 +1,54 @@
+.board {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 340px;
+  background: var(--color-paper);
+  border: 5px solid var(--color-torii-red);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-panel);
+  padding: 18px 16px 16px;
+  text-align: center;
+}
+
+.board::before,
+.board::after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  bottom: 6px;
+  width: 10px;
+  background: var(--color-wood-dark);
+  border-radius: 4px;
+}
+
+.board::before {
+  left: -14px;
+}
+
+.board::after {
+  right: -14px;
+}
+
+.word {
+  margin: 6px 0 10px;
+  font-size: clamp(2.4rem, 10vw, 3.2rem);
+  font-weight: 900;
+  color: var(--color-ink);
+  letter-spacing: 0.05em;
+  word-break: keep-all;
+}
+
+.divider {
+  border: none;
+  border-top: 2px dashed var(--color-paper-edge);
+  margin: 8px auto;
+  width: 70%;
+}
+
+.example {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--color-ink-soft);
+  font-weight: 600;
+}

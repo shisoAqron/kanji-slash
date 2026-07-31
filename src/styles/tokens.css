@@ -1,0 +1,50 @@
+:root {
+  --color-bg-night-top: #150b30;
+  --color-bg-night-mid: #2a1c52;
+  --color-bg-night-bottom: #4a2f5e;
+  --color-torii-red: #7c2b1f;
+
+  --color-wood: #9a6a3d;
+  --color-wood-dark: #5c3b21;
+  --color-wood-light: #c99a5f;
+
+  --color-paper: #f6ecd6;
+  --color-paper-edge: #d9c39a;
+  --color-ink: #2b2118;
+  --color-ink-soft: #5a4a38;
+
+  --color-gold: #ffcf4d;
+  --color-gold-dark: #e2891c;
+  --color-correct: #ff9d2f;
+  --color-incorrect: #8a6fd1;
+
+  --color-yokai-body: #f4f2fb;
+  --color-yokai-shade: #d8d3ef;
+  --color-yokai-horn: #8f6fd1;
+  --color-yokai-outline: #453a72;
+  --color-yokai-cheek: #ffb4c6;
+
+  --color-slash: #dff4ff;
+  --color-slash-glow: #7fd7ff;
+
+  --color-focus-ring: #ffe17a;
+
+  --font-family-base: 'Hiragino Maru Gothic ProN', 'Hiragino Sans', 'Yu Gothic Medium', 'Yu Gothic',
+    'Meiryo', system-ui, sans-serif;
+
+  --radius-lg: 22px;
+  --radius-md: 14px;
+  --radius-sm: 8px;
+
+  --shadow-panel: 0 10px 26px rgba(10, 5, 30, 0.45);
+  --shadow-button: 0 4px 0 rgba(0, 0, 0, 0.35);
+
+  --max-game-width: 480px;
+  --min-tap-size: 44px;
+
+  --duration-fast: 180ms;
+  --duration-mid: 420ms;
+  --duration-slash: 320ms;
+  --duration-vanish: 620ms;
+  --duration-dodge: 520ms;
+}

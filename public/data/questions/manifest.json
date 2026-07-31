@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "levels": [
+    {
+      "grade": 1,
+      "label": "小学1年生",
+      "available": true,
+      "path": "data/questions/grade-1.json"
+    },
+    {
+      "grade": 2,
+      "label": "小学2年生",
+      "available": true,
+      "path": "data/questions/grade-2.json"
+    },
+    {
+      "grade": 3,
+      "label": "小学3年生",
+      "available": false
+    },
+    {
+      "grade": 4,
+      "label": "小学4年生",
+      "available": false
+    },
+    {
+      "grade": 5,
+      "label": "小学5年生",
+      "available": false
+    },
+    {
+      "grade": 6,
+      "label": "小学6年生",
+      "available": false
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+@keyframes yokai-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes slash-sweep-left {
+  0% {
+    transform: translate(70%, -70%) rotate(-45deg) scaleX(0);
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+    transform: translate(0%, 0%) rotate(-45deg) scaleX(1);
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-40%, 40%) rotate(-45deg) scaleX(1);
+  }
+}
+
+@keyframes slash-sweep-right {
+  0% {
+    transform: translate(-70%, -70%) rotate(45deg) scaleX(0);
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+    transform: translate(0%, 0%) rotate(45deg) scaleX(1);
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(40%, 40%) rotate(45deg) scaleX(1);
+  }
+}
+
+@keyframes sword-chop {
+  0% {
+    transform: rotate(-78deg) scale(0.88);
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  55% {
+    transform: rotate(12deg) scale(1.06);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(46deg) scale(0.96);
+    opacity: 0;
+  }
+}
+
+@keyframes impact-flash {
+  0% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+@keyframes yokai-vanish {
+  0% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+    filter: brightness(1);
+  }
+  30% {
+    transform: scale(1.08) rotate(-4deg);
+    filter: brightness(1.6);
+  }
+  100% {
+    transform: scale(0.2) translateY(-40px) rotate(12deg);
+    opacity: 0;
+    filter: brightness(2);
+  }
+}
+
+@keyframes smoke-puff {
+  0% {
+    transform: scale(0.4);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.6) translateY(-24px);
+    opacity: 0;
+  }
+}
+
+@keyframes yokai-dodge {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  30% {
+    transform: translateX(18px) rotate(8deg);
+  }
+  55% {
+    transform: translateX(-10px) rotate(-6deg);
+  }
+  75% {
+    transform: translateX(4px) rotate(3deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+@keyframes yokai-taunt {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes pop-in {
+  0% {
+    transform: scale(0.4);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.12);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-up {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes logo-glow-sweep {
+  0% {
+    background-position: -120% 0;
+  }
+  100% {
+    background-position: 220% 0;
+  }
+}
+
+@keyframes sword-idle-sway {
+  0%,
+  100% {
+    transform: rotate(-22deg);
+  }
+  50% {
+    transform: rotate(-16deg);
+  }
+}
+
+@keyframes lantern-sway {
+  0%,
+  100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+}
